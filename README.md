@@ -73,3 +73,14 @@ void lcd_send(uint8_t value, uint8_t mode) {
 - `lcd_set_cursor(uint8_t row, uint8_t col)`: Sets the cursor position on the LCD.
 - `lcd_print(char* str)`: Prints a null-terminated string to the LCD.
 
+## Contributing
+
+Contributions are welcome! 
+
+- **Bug Fixes:** If you find any bugs or issues, feel free to create an issue or submit a pull request.
+- **Feature Enhancements:** If you have ideas for new features or improvements, don't hesitate to share them.
+
+# License
+
+This project is licensed under the [MIT License](LICENSE).
+
