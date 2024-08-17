@@ -73,6 +73,31 @@ void lcd_send(uint8_t value, uint8_t mode) {
 - `lcd_set_cursor(uint8_t row, uint8_t col)`: Sets the cursor position on the LCD.
 - `lcd_print(char* str)`: Prints a null-terminated string to the LCD.
 
+### Common LCD Operations
+
+Here are examples of common LCD operations using the provided library:
+
+**1. Clear the Display**
+
+```c
+lcd_command(0x01); // Send the clear display command (0x01)
+```
+
+**2. Set Cursor Position**
+
+To set the cursor to a specific row and column:
+
+```c
+lcd_set_cursor(0, 2);  // Set cursor to row 0, column 2
+lcd_set_cursor(1, 5);  // Set cursor to row 1, column 5
+```
+
+**3. Print a String**
+
+```c
+lcd_print("Hello World!"); // Print "Hello World!" at the current cursor position
+```
+
 ## Contributing
 
 Contributions are welcome! 
