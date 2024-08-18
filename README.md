@@ -75,7 +75,7 @@ void lcd_send(uint8_t value, uint8_t mode) {
 
 ### Common LCD Operations
 
-Here are examples of common LCD operations using the provided library:
+Here are examples of common LCD operations using the provided implementation:
 
 **1. Clear the Display**
 
