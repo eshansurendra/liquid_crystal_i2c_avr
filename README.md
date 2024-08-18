@@ -73,6 +73,15 @@ void lcd_send(uint8_t value, uint8_t mode) {
 - `lcd_set_cursor(uint8_t row, uint8_t col)`: Sets the cursor position on the LCD.
 - `lcd_print(char* str)`: Prints a null-terminated string to the LCD.
 
+#### Connections (ATMega328P Example):
+
+   | I2C LCD | ATMega328P |
+   |---------|-------------|
+   | VCC     | 5V         |
+   | GND     | GND        |
+   | SCL     | SCL or A5   |
+   | SDA     | SDA or A4   |
+
 ### Common LCD Operations
 
 Here are examples of common LCD operations using the provided implementation:
