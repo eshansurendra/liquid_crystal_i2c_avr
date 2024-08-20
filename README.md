@@ -114,14 +114,16 @@ Contributions are welcome!
 - **Bug Fixes:** If you find any bugs or issues, feel free to create an issue or submit a pull request.
 - **Feature Enhancements:** If you have ideas for new features or improvements, don't hesitate to share them.
 
-# License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Further Information
 
 For more detailed information on programming the Arduino Uno with Atmel Studio 7 and implementing the LCD I2C interface, please refer to these articles:
 
 - Programming the Arduino Uno Using Atmel Studio 7: [https://medium.com/@janukaeshan/programming-the-arduino-uno-using-atmel-studio-7-99b0915dec1b](https://medium.com/@janukaeshan/programming-the-arduino-uno-using-atmel-studio-7-99b0915dec1b)
 - AVR Microcontroller Implementation of Liquid Crystal I2C Interface: A Comprehensive Guide: [https://medium.com/@janukaeshan/avr-microcontroller-implementation-of-liquid-crystal-i2c-interface-a-comprehensive-guide-8bc4c0ecc857](https://medium.com/@janukaeshan/avr-microcontroller-implementation-of-liquid-crystal-i2c-interface-a-comprehensive-guide-8bc4c0ecc857)
+
+# License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
 
